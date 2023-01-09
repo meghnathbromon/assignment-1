@@ -1,0 +1,185 @@
+
+/* header-banner style */
+*{
+    font-family:'Work Sans', sans-serif;
+}
+.banner-header{ 
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 809px;
+}
+.banner-text{
+    padding-top: 200px;
+    padding-right: 150px;
+    text-align: right;
+
+}
+.btn-primary{
+    background: #F15B22;
+    width: 160px;   
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    color: #f0ffffde;
+
+}
+h2{
+    margin-bottom: 24px;
+    
+} 
+p{
+    margin-bottom: 32px;
+}
+
+/* main image and discribe */
+
+.main-discribe-image{
+    display: flex;
+    align-items: center;
+    margin: 166px 322px 130px 188px;
+}
+.main-image{
+    margin-right: 105px;
+    width: 569px;
+    height: 723.3px;    
+}
+.main-header{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+/* plan and icon style */
+
+.planning-information{
+    margin-left: 230px;
+    margin-right: 230px;
+
+}
+.intro-icon{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 170px;
+}
+
+.icon-header{
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+
+/* mindset and graduent style */
+
+.mindset-gradient{
+    border-radius: 8px;
+    margin: 130px 230px;
+    background-image:url('../images/watch.png');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: left;
+} 
+
+.color-gradient{
+
+    background:url(../images/gradient2.png), linear-gradient(to top right, blue,gold);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+    position: absolute;
+
+
+}
+
+.btn-gradient{
+    background: #FFFFFF;
+    width: 160px;   
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    
+
+}
+.section-header-botton{
+    padding-left: 65px;
+    padding-top: 60px;
+}
+.mindset{
+    color: #FFFFFF;
+}
+/* section me style */
+
+.section-me{
+    display: flex;
+    margin: 130px 230px;
+    gap: 200px;
+
+}
+.btn-me{
+    margin-top: 10px;
+    gap: 15px;
+    height: 40px;
+    width: 80px;
+    background-color: rgba(112, 189, 30, 0.73);
+    color: #e3e7eed6;
+    font-size: 20;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer section */
+
+.contract-information{ 
+    background-color: black;
+    height: 577px;
+    margin-top: 130px;
+    margin-left: 0px;
+    display: flex;
+}
+.contract-details{
+    color: #FFFFFF;
+    padding-left: 270px;
+    padding-top: 110px;
+    height: 317px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.right-head{
+    color: #FFFFFF;
+}
+.contract-right{
+    height: 204px;
+    padding-top: 110px;
+    padding-left: 330px;
+    padding-right: 160px;
+
+} 
+.btn-subscribe{
+    background: #FFFFFF;
+    width: 120px;   
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    
+
+}
+input{
+    height: 60px;
+    width: 200px;
+    border: 2px solid #d5cea6bf;
+    border-radius: 8px;
+    background-color: black;
+    color: #FFFFFF;
+}
